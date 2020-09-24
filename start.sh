@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ -z ${TZ+x} ]; then export TZ=America/Chicago; fi
+if [ -z ${TZ+x} ]; then export TZ=Europe/Amsterdam; fi
 rm /etc/localtime
 cd /etc; ln -s /usr/share/zoneinfo/$TZ localtime
 if [ ! -z ${DOMOTICZ_OPTS+x} ]

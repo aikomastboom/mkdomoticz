@@ -1,1 +1,1 @@
-joshuacox/mkdomoticz
+docker-registry.aiko.sh/aiko/mkdomoticz
